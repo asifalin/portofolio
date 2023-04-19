@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* Hero section 1 start here  */
+}
+#main-section {
+ background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.747) , rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.726) ),url(./img/gilgit-baltistan.jpg);
+ 
+  background-size: cover;
+height: 100vh;
+  padding: 1% 1%;
+  color: white;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+}
+
+.list li {
+  
+  list-style: none;
+  display: inline;
+  margin: 20px;
+  
+}
+.list ul{
+    margin-left: 33%;
+}
+.name {
+  margin-left: 5%;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+}
+.profile-avt {
+  border-radius: 100px;
+  width: 15%;
+  height: 200px;
+  margin-top: 9%;
+}
+.profile-text{
+    text-align: center;
+}
+.profile-text h1 {
+  text-align: center;
+  margin-top: 1%;
+  color: orangered;
+}
+.hadding p{
+  text-align: center;
+  margin-top: 1%;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  
+  .contenear{
+    padding: 0% 7%;
+  }.list li {
+    display: block;
+  
+  }
+  .list {
+    display: block;
+    justify-content: start;
+  }
+  .list ul{
+    margin-left: 0%;
+}
+  .name {
+    margin-left: 5%;
+  }
+  .profile-avt {
+    width: 25%;
+    height: 120px;
+
+  }
+  .hadding h1 {
+    margin-left: 10%;
+  }
+  .hadding h2 {
+    margin-left: 10%;
+  }
+}
+ /* Hero section 1 ending here  */
+ 
+ /* Hero section 2 start here  */
+ 
+ #Header {
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  height: 100vh;
+ 
+}
+.about-div {
+  display: flex;
+  width: 70%;
+  align-items: center;
+margin-left: 10%;
+}
+.about-manu {
+  width: 100%;
+  height: 70vh;
+  padding: 3%;
+}
+.about-item{
+  margin-top: 2.5%;
+  line-height: 30px;
+}
+.about-manu span {
+  border-bottom: 2px solid orangered;
+ 
+}
+.discover {
+  width: 30%;
+  height: 60vh;
+  background-image: url(./img/Capture\ img.PNG);
+  background-size: 100% 100%;
+}
+.intro {
+  display: flex;
+  border: 3px solid brown;
+  margin-top: 2%;
+  width: 70%;
+  padding: 2%;
+  line-height: 25px;
+  justify-content: space-between;
+}
+.intro2 {
+margin-left: 15%;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin-top: 1%;
+  padding: 2.5%;
+  width: 20%;
+  border: none;
+  background-color: orangered;
+  color: white;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  #Header{
+        height: 150vh;
+    }
+    .intro {
+      flex-direction: column;
+      border: 3px solid brown;
+      
+  
+  }
+
+  .about-div {
+    flex-direction: column;
+    height: 70px;
+  }
+  .discover {
+    margin-top: 5%;
+    width: 60%;
+    
+  }
+  .intro2 {
+    margin-left: 0%;
+   
+  }
+  .btn {
+        
+        padding: 3.5%;
+        width: 30%;
+        
+        background-color: orangered;
+        color: white;
+        
+      }
+}
+/* Hero section 2 ending here  */
+
+/* Hero section 3 start here  */
+
+#main-services {
+  background-color:rgba(14, 13, 13, 0.829);
+  width: 100%;
+  padding-bottom: 7%;
+  padding-top: 5%;
+  color: white;
+}
+#main-services h1 {
+  margin-left: 4%;
+}
+.main-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-box1 {
+  width: 25%;
+  height: 65vh;
+  background-color: transparent;
+  border: 2px solid rgba(255, 0, 0, 0.822);
+  border-radius: 8px;
+  padding-top: 1%;
+  /* line-height: 30px; */
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-around;
+}
+.services img{
+    height: 50px;
+}
+
+.main-box2 {
+  width: 25%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 0, 0, 0.815);
+  height: 65vh;
+  border-radius: 8px;
+  padding-top: 1%;
+  /* line-height: 30px; */
+}
+.services i {
+  font-size: 17px;
+  align-items: center;
+  color: white;
+  
+  padding: 10%;
+}
+.services {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  #main-services h1 {
+    text-align: center;
+  }
+
+  .main-box {
+    display: block;
+  }
+  .main-box1 {
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 17%;
+    
+  } 
+  .boxs {
+    display: block;
+  }
+  .main-box2 {
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 17%;
+   
+  }
+}
+
+/* Hero section 3 ending here  */
+/* Hero section 4 start here  */
+
+
+
+#contact{
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.623) , rgba(0, 0, 0, 0.623) ), url(./img/andre-benz-cXU6tNxhub0-unsplash.jpg);
+  background-size: cover;
+background-color: yellowgreen;
+  padding: 5%;
+  color: white;
+}
+.contact-us{
+  padding: 5%;
+  text-align: center;
+
+}
+.contact-div{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contact-div1{
+  width: 30%;
+  height: 100%;
+  background-color:transparent;
+}
+.contact-div2{
+  padding: 2%;
+  width: 40%;
+  height: 50%;
+  color: black;
+  background-color:rgba(255, 255, 255, 0.932);
+}
+.contact-div2 input{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  width: 50%;
+  line-height: 70px;
+  
+}
+.contact-div2 hr{
+  width: 70%;
+  height: 2px;
+background-color: black;
+}
+
+.contact-div1{
+  /* display: flex; */
+  flex-direction: column;
+  line-height: 30px;
+  
+}
+.contact-div1 i{
+  font-size: 25px;
+  color: black;
+  width: 8%;
+  text-align: center;
+  padding: 2%;
+  border-radius: 50%;
+  background-color: rgb(236, 231, 224);
+  }
+  
+  .btns {
+    margin-top: 5%;
+    padding: 3%;
+    width: 30%;
+    border: none;
+    font-size: 19px;
+    background-color: rgba(0, 0, 255, 0.767);
+    color: white;
+    
+  }
+  @media screen and (max-width: 576px){
+ 
+ 
+    .contact-div{
+      padding: 0 7%;
+      display: block;
+      
+    }
+    .contact-div1{
+      width: 80%;
+      height: 60%;
+      
+    }
+    
+    .contact-div2{
+    
+      width: 80%;
+      background-color:rgba(255, 255, 255, 0.932);
+    }
+    .contact-div2 input{
+      
+      font-size: 15px;
+      line-height: 60px;
+      
+    }
+    .contact-div2 hr{
+    width: 85%;
+    background-color: black;
+  }
+    .contact-div1 i{
+      font-size: 20px;
+      color: black;
+      width: 5%;
+      text-align: center;
+      padding: 4%;
+      }
+    
+    .contact-div1{
+      flex-direction: column;
+      line-height: 30px;
+      
+    } 
+    .btns{
+      font-size: 15px;
+      width: 30% ;
+    }    
+  }
+    /* Hero section 4 ending here  */
