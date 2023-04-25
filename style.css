@@ -9,24 +9,34 @@
  
   background-size: cover;
 height: 100vh;
-  padding: 1% 1%;
   color: white;
+}
+.container{
+
+max-width: 1100px;
+margin-left: 1rem;
+margin-right: 1rem;
+margin: 0 auto;
 }
 
 .list {
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+ 
+
 }
 
 .list li {
-  
+
   list-style: none;
   display: inline;
   margin: 20px;
   
 }
 .list ul{
-    margin-left: 33%;
+    margin-left: 19%;
+    /* background-color: brown; */
+    
 }
 .name {
   margin-left: 5%;
@@ -35,31 +45,43 @@ height: 100vh;
 .list a {
   text-decoration: none;
   color: white;
+  font-size: 23px;
 }
-.profile-avt {
-  border-radius: 100px;
-  width: 15%;
-  height: 200px;
-  margin-top: 9%;
+.profile-img{
+background-size: cover;
+
+background-image: url(./img/middle.jpg);
+width: 12%;
+height: 20vh;
+border-radius: 50%;
+margin-top: 10%;
+margin-left: 43%;
+background-position: center;
 }
 .profile-text{
     text-align: center;
+    font-size: 25px;
+
+
+   
 }
 .profile-text h1 {
   text-align: center;
-  margin-top: 1%;
   color: orangered;
+  margin-top: 20px;
+  margin-bottom : 20px;
 }
 .hadding p{
   text-align: center;
-  margin-top: 1%;
+  /* margin-top: 40px; */
   color: white;
 }
 
 @media screen and (max-width: 576px) {
   
-  .contenear{
+  .container{
     padding: 0% 7%;
+
   }.list li {
     display: block;
   
@@ -67,25 +89,62 @@ height: 100vh;
   .list {
     display: block;
     justify-content: start;
+    /* background-color: transparent;
+    position: absolute; */
   }
   .list ul{
-    margin-left: 0%;
+    margin-left:0%;
+  
 }
   .name {
     margin-left: 5%;
   }
-  .profile-avt {
-    width: 25%;
-    height: 120px;
 
-  }
   .hadding h1 {
-    margin-left: 10%;
+    margin-left: 20%;
   }
   .hadding h2 {
     margin-left: 10%;
   }
+  .profile-img{
+    width: 30%;
+    margin: 0% auto;
+   
+  }
 }
+
+@media screen and (max-width: 750px) {
+  .list {
+    display: block;
+    justify-content: start;
+    
+  }
+  .list ul{
+    padding-top: 50px;
+    margin-left:0%;
+    justify-content: center;
+    text-align: center;
+    
+}
+  .list li a:hover{
+   color: orangered;
+
+}
+.list li{
+  display: block;
+}
+
+}
+@media  (max-width:600) {
+  .profile-img{
+  
+    width: 80%;
+    height: 30vh;
+  
+    }
+}
+
+
  /* Hero section 1 ending here  */
  
  /* Hero section 2 start here  */
@@ -129,6 +188,7 @@ margin-left: 10%;
   padding: 2%;
   line-height: 25px;
   justify-content: space-between;
+  overflow: hidden;
 }
 .intro2 {
 margin-left: 15%;
