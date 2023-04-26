@@ -8,8 +8,8 @@
  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.747) , rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.726) ),url(./img/gilgit-baltistan.jpg);
  
   background-size: cover;
-height: 100vh;
   color: white;
+  padding-bottom: 2%;
 }
 .container{
 
@@ -19,33 +19,34 @@ margin-right: 1rem;
 margin: 0 auto;
 }
 
-.list {
+.nav-bar {
   display: flex;
   justify-content: space-between;
- 
+ padding-top: 2%;
 
 }
 
-.list li {
+.nav-bar li {
 
   list-style: none;
   display: inline;
   margin: 20px;
-  
 }
-.list ul{
+
+.nav-bar ul{
     margin-left: 19%;
-    /* background-color: brown; */
+  
     
 }
-.name {
+.logo{
   margin-left: 5%;
 }
 
-.list a {
+.nav-bar a {
   text-decoration: none;
   color: white;
-  font-size: 23px;
+  font-size: 18px;
+ 
 }
 .profile-img{
 background-size: cover;
@@ -61,19 +62,17 @@ background-position: center;
 .profile-text{
     text-align: center;
     font-size: 25px;
-
-
-   
 }
+
 .profile-text h1 {
   text-align: center;
   color: orangered;
   margin-top: 20px;
   margin-bottom : 20px;
+  font-family: "font-bold";
 }
 .hadding p{
   text-align: center;
-  /* margin-top: 40px; */
   color: white;
 }
 
@@ -82,21 +81,20 @@ background-position: center;
   .container{
     padding: 0% 7%;
 
-  }.list li {
+  }.nav-bar li {
     display: block;
   
   }
-  .list {
+  .nav-bar {
     display: block;
     justify-content: start;
-    /* background-color: transparent;
-    position: absolute; */
+   
   }
-  .list ul{
+  .nav-bar ul{
     margin-left:0%;
   
 }
-  .name {
+  .logo {
     margin-left: 5%;
   }
 
@@ -114,23 +112,24 @@ background-position: center;
 }
 
 @media screen and (max-width: 750px) {
-  .list {
+
+  .nav-bar {
     display: block;
     justify-content: start;
     
   }
-  .list ul{
+  .nav-bar ul{
     padding-top: 50px;
     margin-left:0%;
     justify-content: center;
     text-align: center;
     
 }
-  .list li a:hover{
+  .nav-bar li a:hover{
    color: orangered;
 
 }
-.list li{
+.nav-bar li{
   display: block;
 }
 
@@ -142,6 +141,15 @@ background-position: center;
     height: 30vh;
   
     }
+  
+}
+@media  (max-width:470) {
+  #main-section {
+
+   height: 200vh;
+   
+   }
+  
 }
 
 
@@ -152,7 +160,7 @@ background-position: center;
  #Header {
   background-color: rgba(0, 0, 0, 0.877);
   color: white;
-  height: 100vh;
+  height: 110vh;
  
 }
 .about-div {
@@ -211,13 +219,14 @@ margin-left: 15%;
 
 @media screen and (max-width: 576px) {
   #Header{
-        height: 150vh;
+        height: 130vh;
+        
     }
+    
     .intro {
       flex-direction: column;
       border: 3px solid brown;
-      
-  
+      width: 100%;
   }
 
   .about-div {
@@ -225,15 +234,15 @@ margin-left: 15%;
     height: 70px;
   }
   .discover {
-    margin-top: 5%;
     width: 60%;
+    height: 40vh;
     
   }
   .intro2 {
     margin-left: 0%;
    
   }
-  .btn {
+   .btn {
         
         padding: 3.5%;
         width: 30%;
@@ -242,7 +251,7 @@ margin-left: 15%;
         color: white;
         
       }
-}
+    }
 /* Hero section 2 ending here  */
 
 /* Hero section 3 start here  */
@@ -264,12 +273,12 @@ margin-left: 15%;
 
 .main-box1 {
   width: 25%;
-  height: 65vh;
+  height: 55vh;
   background-color: transparent;
   border: 2px solid rgba(255, 0, 0, 0.822);
   border-radius: 8px;
   padding-top: 1%;
-  /* line-height: 30px; */
+  overflow: hidden;
 }
 
 .boxs {
@@ -278,16 +287,6 @@ margin-left: 15%;
 }
 .services img{
     height: 50px;
-}
-
-.main-box2 {
-  width: 25%;
-  background-color: transparent;
-  border: 2px solid rgba(255, 0, 0, 0.815);
-  height: 65vh;
-  border-radius: 8px;
-  padding-top: 1%;
-  /* line-height: 30px; */
 }
 .services i {
   font-size: 17px;
@@ -326,10 +325,9 @@ margin-left: 15%;
 }
 
 /* Hero section 3 ending here  */
+
+
 /* Hero section 4 start here  */
-
-
-
 #contact{
   background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.623) , rgba(0, 0, 0, 0.623) ), url(./img/andre-benz-cXU6tNxhub0-unsplash.jpg);
   background-size: cover;
@@ -375,7 +373,6 @@ background-color: black;
 }
 
 .contact-div1{
-  /* display: flex; */
   flex-direction: column;
   line-height: 30px;
   
